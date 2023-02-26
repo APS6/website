@@ -159,22 +159,6 @@ html {
     background-color: aqua;
     margin-left: 75px;
     width: 0px;
-    animation-name: amm;
-    animation-duration: 2.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes amm {
-    from {
-        width: 0px;
-    }
-
-    to {
-        width: 90%;
-    }
-}
 
 .secleft {
     flex-direction: row-reverse
